@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Book
+
+  datasource:
+    url: jdbc:postgresql://localhost:5430/bookdb
+    username: book
+    password: book
+    name: bookdb
+
+  liquibase:
+    change-log: db/changelog/changelog-master.yml
+
